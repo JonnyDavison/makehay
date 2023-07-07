@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://makehay-bb96cb74e437.herokuapp.com/']
+ALLOWED_HOSTS = ['makehay-bb96cb74e437.herokuapp.com']
 
 
 # Application definition
