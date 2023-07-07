@@ -1,1 +1,1 @@
-web: guincorn makehay.wsgi
+web: gunicorn makehay.wsgi
