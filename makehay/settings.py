@@ -30,8 +30,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['makehay-bb96cb74e437.herokuapp.com']
-ALLOWED_HOSTS = ['8000-jonnydavison-makehay-oh730kgiddk.ws-eu101.gitpod.io']
+ALLOWED_HOSTS = ['makehay-bb96cb74e437.herokuapp.com']
+# ALLOWED_HOSTS = ['8000-jonnydavison-makehay-oh730kgiddk.ws-eu101.gitpod.io']
 
 # Application definition
 
@@ -66,7 +66,10 @@ ROOT_URLCONF = 'makehay.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'templates'),
+            os.path.join(BASE_DIR, 'templates', 'allauth'),
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
