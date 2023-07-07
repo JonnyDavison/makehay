@@ -8,10 +8,12 @@ html {
 body {
     background: url('/media/background.jpg') no-repeat center center fixed;
     background-size: cover;
+    width: 100%;
     height: calc(100vh - 164px);
     color: rgb(227, 217, 198);
     font-family: 'Baron Neue', sans-serif;
 }
+
 
 /* from Bulma */
 .icon {
@@ -52,7 +54,7 @@ body {
 }
 
 .text-color {
-    color: rgb(227, 217, 198) !important;
+    color: rgb(79, 83, 88) !important;
 }
 
 .text-color-light {
