@@ -33,13 +33,13 @@ body {
 }
 
 .shop-now-button {
-    background: black;
-    color: white;
+    background: rgb(79, 83, 88);
+    color: rgb(227, 217, 198);
     min-width: 260px;
 }
 
 .btn-black {
-    background: black;
+    background: rgb(79, 83, 88);
     color: white;
 }
 
@@ -49,8 +49,8 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
-    color: white;
+    background: rgb(79, 83, 88);
+    color: rgb(227, 217, 198);
 }
 
 .text-color {
@@ -63,9 +63,12 @@ body {
 
 
 .border-black {
-    border: 1px solid black !important;
+    border: 1px solid rgb(79, 83, 88) !important;
 }
 
+.bg-black {
+    background: rgb(79, 83, 88)0 !important;
+}
 /* -------------------------------- Video styles  */
 
 
