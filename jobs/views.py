@@ -2,8 +2,9 @@ from django.shortcuts import render
 from .models import Roles
 # Create your views here.
 
+
 def all_roles(request):
-    """ a view to retuern the products with sort and serch """
+    """ A view to retuern the roles with sort and search """
     roles = Roles.objects.all()
 
     context = {
