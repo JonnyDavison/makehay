@@ -69,7 +69,11 @@ body {
 .bg-black {
     background: rgb(79, 83, 88)0 !important;
 }
-/* -------------------------------- Video styles  */
+
+.navbar{
+    padding: 0;
+}
+/* -------------------------------- Shop & recruitment overlay styles  */
 
 .overlay {
     height: 100%;
