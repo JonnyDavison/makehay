@@ -41,10 +41,10 @@
                 Shop
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}" class="dropdown-item text-color">Staples</a>
-                <a href="" class="dropdown-item text-color">Something</a>
-                <a href="" class="dropdown-item text-color">Kit</a>
-                <a href="" class="dropdown-item text-color">Shop</a>
+                <a href="{% url 'products' %}?category=staples" class="dropdown-item text-color">Staples</a>
+                <a href="{% url 'products' %}?category=seasonal" class="dropdown-item text-color">Seasonal</a>
+                <a href="{% url 'products' %}?category=kits" class="dropdown-item text-color">Kit</a>
+                <a href="{% url 'products' %}" class="dropdown-item text-color">Shop All</a>
             </div>
         </li>
     </ul>
