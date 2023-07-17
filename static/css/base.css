@@ -73,6 +73,24 @@ body {
 .navbar{
     padding: 0;
 }
+
+a.category-badge > span.badge:hover {
+    background: rgb(79, 83, 88) !important;
+    color: rgb(227, 217, 198) !important;
+}
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link {
+    cursor: pointer;
+}
+
 /* -------------------------------- Shop & recruitment overlay styles  */
 
 .overlay {
@@ -85,10 +103,6 @@ body {
     z-index: -1;
 }
 
-a.category-badge > span.badge:hover {
-    background: rgb(79, 83, 88) !important;
-    color: rgb(227, 217, 198) !important;
-}
 
 /* -------------------------------- Media Queries */
 
