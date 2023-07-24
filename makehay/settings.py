@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 # ALLOWED_HOSTS = ['makehay-bb96cb74e437.herokuapp.com']
-ALLOWED_HOSTS = ['8000-jonnydavison-makehay-oh730kgiddk.ws-eu101.gitpod.io']
+ALLOWED_HOSTS = ['8000-jonnydavison-makehay-oh730kgiddk.ws-eu102.gitpod.io']
 
 # Application definition
 

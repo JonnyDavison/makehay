@@ -14,6 +14,9 @@ body {
     font-family: 'Baron Neue', sans-serif;
 }
 
+.bg-1 {
+    background-color: rgb(227, 217, 198);
+}
 
 /* from Bulma */
 .icon {
@@ -28,31 +31,6 @@ body {
     text-transform: uppercase;
 }
 
-.main-logo-link {
-    width: fit-content;
-}
-
-.shop-now-button {
-    background: rgb(79, 83, 88);
-    color: rgb(227, 217, 198);
-    min-width: 260px;
-}
-
-.btn-black {
-    background: rgb(79, 83, 88);
-    color: white;
-}
-
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: rgb(79, 83, 88);
-    color: rgb(227, 217, 198);
-}
-
 .text-color {
     color: rgb(79, 83, 88) !important;
 }
@@ -60,7 +38,6 @@ body {
 .text-color-light {
     color: rgb(227, 217, 198) !important;
 }
-
 
 .border-black {
     border: 1px solid rgb(79, 83, 88) !important;
@@ -90,7 +67,14 @@ a.category-badge > span.badge:hover {
 .btt-link {
     cursor: pointer;
 }
+/* -------------------------------- Our chef styles  */
 
+
+.ourchef-img {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
 /* -------------------------------- Shop & recruitment overlay styles  */
 
 .overlay {

@@ -5,3 +5,8 @@ from django.shortcuts import render
 def index(request):
     """ a view to retuern the index page """
     return render(request, 'home/index.html')
+
+
+def ourchef(request):
+    """ a view to retuern the index page """
+    return render(request, 'home/our-chef.html')
