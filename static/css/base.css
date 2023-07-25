@@ -113,6 +113,7 @@ a.category-badge > span.badge:hover {
     text-align: left;
     padding: 55px 50px;
     margin-top: 5rem;
+    text-transform: capitalize;
   }
   
   .footer-distributed .footer-left,
@@ -203,7 +204,7 @@ a.category-badge > span.badge:hover {
   
   .footer-distributed .footer-center p a{
     color:  rgb(227, 217, 198);
-    text-decoration: none;;
+    text-decoration: none;
   }
   
   .footer-distributed .footer-links a:before {
