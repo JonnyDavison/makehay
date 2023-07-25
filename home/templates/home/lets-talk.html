@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container h100">
+    <div class="row h100">
+        <div class="col-7 col-md-6 my-auto">
+            <h1 class="display-1 text-color-light logo-font">Lets Talk</h1>
+            <h2 class="text-uppercase text-color-light py-3">Get in touch</h2>
+        </div>
+        <div class="col-4 col-md-6 d-none d-md-block d-lg-block my-auto">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <form class="lets-talk-form" >
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1">
+                  </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">MESSAGE</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="button" class="btn makehay-btn">SUBMIT</button>
+              </form>
+        </div>
+    </div>
+
+
+</div>
+{% endblock %}
